@@ -16,8 +16,7 @@ public class MovieEntity {
 
     @Id
     @GeneratedValue(generator = "guid")
-    @GenericGenerator(name = "guid", strategy = "com.nrinavigator.api.misc." +
-            "generator.UseExistingOrGenerateUUIDGenerator")
+    @GenericGenerator(name = "guid", strategy = "com.demo.util.UseExistingOrGenerateUUIDGenerator")
     private String guid;
 
 

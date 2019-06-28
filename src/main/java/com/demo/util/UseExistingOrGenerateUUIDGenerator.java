@@ -1,4 +1,4 @@
-package com.demo.demo;
+package com.demo.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SessionImplementor;
