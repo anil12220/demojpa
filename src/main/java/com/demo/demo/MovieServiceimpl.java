@@ -31,7 +31,7 @@ public class MovieServiceimpl implements IMovieService {
         //repo.
 
         // will go to data base, and using id from movie table we will get movie details.
-        movie.setName(entity.get);
+      //  movie.setName(entity.get);
 
         movie.setActors("hollywood");
         movie.setDirector("steve");
